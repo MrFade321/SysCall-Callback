@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\MrsFade\Downloads\Hooking-via-InstrumentationCallback-master\Hooking-via-InstrumentationCallback-master\instrumentationcallback\</FILEPATH>
+      <FILENAME>instrumentationcallback.cpp</FILENAME>
+      <LINE>13</LINE>
+      <COLUMN>107</COLUMN>
+    </SFA>
+    <DEFECTCODE>26426</DEFECTCODE>
+    <DESCRIPTION>Global initializer calls a non-constexpr function 'GetModuleHandleW' (i.22).</DESCRIPTION>
+    <FUNCTION>`dynamic initializer for 'NtSetInformationProcess''</FUNCTION>
+    <DECORATED>??__ENtSetInformationProcess@@YAXXZ</DECORATED>
+    <FUNCLINE>14</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\MrsFade\Downloads\Hooking-via-InstrumentationCallback-master\Hooking-via-InstrumentationCallback-master\instrumentationcallback\</FILEPATH>
+      <FILENAME>instrumentationcallback.cpp</FILENAME>
+      <LINE>13</LINE>
+      <COLUMN>91</COLUMN>
+    </SFA>
+    <DEFECTCODE>26426</DEFECTCODE>
+    <DESCRIPTION>Global initializer calls a non-constexpr function 'GetProcAddress' (i.22).</DESCRIPTION>
+    <FUNCTION>`dynamic initializer for 'NtSetInformationProcess''</FUNCTION>
+    <DECORATED>??__ENtSetInformationProcess@@YAXXZ</DECORATED>
+    <FUNCLINE>14</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\MrsFade\Downloads\Hooking-via-InstrumentationCallback-master\Hooking-via-InstrumentationCallback-master\instrumentationcallback\</FILEPATH>
+      <FILENAME>instrumentationcallback.cpp</FILENAME>
+      <LINE>13</LINE>
+      <COLUMN>51</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>NtSetInformationProcess</FUNCTION>
+    <DECORATED>?NtSetInformationProcess@@3P6AJPEAXW4_PROCESS_INFORMATION_CLASS@@0K@ZEA</DECORATED>
+    <FUNCLINE>13</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\MrsFade\Downloads\Hooking-via-InstrumentationCallback-master\Hooking-via-InstrumentationCallback-master\instrumentationcallback\</FILEPATH>
+      <FILENAME>instrumentationcallback.cpp</FILENAME>
+      <LINE>37</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26496</DEFECTCODE>
+    <DESCRIPTION>The variable 'result' does not change after construction, mark it as const (con.4).</DESCRIPTION>
+    <FUNCTION>hook</FUNCTION>
+    <DECORATED>hook</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\MrsFade\Downloads\Hooking-via-InstrumentationCallback-master\Hooking-via-InstrumentationCallback-master\instrumentationcallback\</FILEPATH>
+      <FILENAME>instrumentationcallback.cpp</FILENAME>
+      <LINE>31</LINE>
+      <COLUMN>25</COLUMN>
+    </SFA>
+    <DEFECTCODE>26485</DEFECTCODE>
+    <DESCRIPTION>Expression 'buffer': No array to pointer decay (bounds.3).</DESCRIPTION>
+    <FUNCTION>hook</FUNCTION>
+    <DECORATED>hook</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\MrsFade\Downloads\Hooking-via-InstrumentationCallback-master\Hooking-via-InstrumentationCallback-master\instrumentationcallback\</FILEPATH>
+      <FILENAME>instrumentationcallback.cpp</FILENAME>
+      <LINE>67</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>51</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\MrsFade\Downloads\Hooking-via-InstrumentationCallback-master\Hooking-via-InstrumentationCallback-master\instrumentationcallback\</FILEPATH>
+      <FILENAME>instrumentationcallback.cpp</FILENAME>
+      <LINE>73</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26493</DEFECTCODE>
+    <DESCRIPTION>Don't use C-style casts (type.4).</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>51</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\MrsFade\Downloads\Hooking-via-InstrumentationCallback-master\Hooking-via-InstrumentationCallback-master\instrumentationcallback\</FILEPATH>
+      <FILENAME>instrumentationcallback.cpp</FILENAME>
+      <LINE>89</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26818</DEFECTCODE>
+    <DESCRIPTION>Switch statement does not cover all cases. Consider adding a 'default' label (es.79).</DESCRIPTION>
+    <FUNCTION>DllMain</FUNCTION>
+    <DECORATED>DllMain</DECORATED>
+    <FUNCLINE>84</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

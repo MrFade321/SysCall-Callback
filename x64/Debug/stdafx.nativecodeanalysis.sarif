@@ -1,0 +1,51 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.39.33523.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/mrsfade/downloads/hooking-via-instrumentationcallback-master/hooking-via-instrumentationcallback-master/instrumentationcallback/stdafx.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "6a069923da215bed31ede893cfc35b25ee7771ce91b5f10b4eb75be519a0bbb3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mrsfade/downloads/hooking-via-instrumentationcallback-master/hooking-via-instrumentationcallback-master/instrumentationcallback/stdafx.h"
+          },
+          "hashes": {
+            "sha-256": "a5e7eb86be74a90d82ddb56f80cb70464070312da7c39341853508ebdcecee76"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mrsfade/downloads/hooking-via-instrumentationcallback-master/hooking-via-instrumentationcallback-master/instrumentationcallback/targetver.h"
+          },
+          "hashes": {
+            "sha-256": "4b74218a89940f250cc5d933cdadf62ad64e8abd832069e0093f42a02bb9944f"
+          }
+        }
+      ]
+    }
+  ]
+}

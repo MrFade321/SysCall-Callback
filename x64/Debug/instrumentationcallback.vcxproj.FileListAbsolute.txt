@@ -1,0 +1,2 @@
+C:\Users\MrsFade\Downloads\Hooking-via-InstrumentationCallback-master\Hooking-via-InstrumentationCallback-master\instrumentationcallback\x64\Debug\NativeCodeAnalysis.read.1.tlog
+C:\Users\MrsFade\Downloads\Hooking-via-InstrumentationCallback-master\Hooking-via-InstrumentationCallback-master\x64\Debug\instrumentationcallback.dll.lastcodeanalysissucceeded

@@ -1,0 +1,279 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26426",
+          "message": {
+            "text": "Global initializer calls a non-constexpr function 'GetModuleHandleW' (i.22)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MrsFade/Downloads/Hooking-via-InstrumentationCallback-master/Hooking-via-InstrumentationCallback-master/instrumentationcallback/instrumentationcallback.cpp"
+                },
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 93,
+                  "endLine": 13,
+                  "endColumn": 109
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "`dynamic initializer for 'NtSetInformationProcess''",
+                  "decoratedName": "??__ENtSetInformationProcess@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26426",
+          "message": {
+            "text": "Global initializer calls a non-constexpr function 'GetProcAddress' (i.22)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MrsFade/Downloads/Hooking-via-InstrumentationCallback-master/Hooking-via-InstrumentationCallback-master/instrumentationcallback/instrumentationcallback.cpp"
+                },
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 92
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "`dynamic initializer for 'NtSetInformationProcess''",
+                  "decoratedName": "??__ENtSetInformationProcess@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26493",
+          "message": {
+            "text": "Don't use C-style casts (type.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MrsFade/Downloads/Hooking-via-InstrumentationCallback-master/Hooking-via-InstrumentationCallback-master/instrumentationcallback/instrumentationcallback.cpp"
+                },
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 52
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "NtSetInformationProcess",
+                  "decoratedName": "?NtSetInformationProcess@@3P6AJPEAXW4_PROCESS_INFORMATION_CLASS@@0K@ZEA",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26496",
+          "message": {
+            "text": "The variable 'result' does not change after construction, mark it as const (con.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MrsFade/Downloads/Hooking-via-InstrumentationCallback-master/Hooking-via-InstrumentationCallback-master/instrumentationcallback/instrumentationcallback.cpp"
+                },
+                "region": {
+                  "startLine": 37,
+                  "startColumn": 11,
+                  "endLine": 37,
+                  "endColumn": 73
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "hook",
+                  "decoratedName": "hook",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26485",
+          "message": {
+            "text": "Expression 'buffer': No array to pointer decay (bounds.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MrsFade/Downloads/Hooking-via-InstrumentationCallback-master/Hooking-via-InstrumentationCallback-master/instrumentationcallback/instrumentationcallback.cpp"
+                },
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 26,
+                  "endLine": 31,
+                  "endColumn": 40
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "hook",
+                  "decoratedName": "hook",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26493",
+          "message": {
+            "text": "Don't use C-style casts (type.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MrsFade/Downloads/Hooking-via-InstrumentationCallback-master/Hooking-via-InstrumentationCallback-master/instrumentationcallback/instrumentationcallback.cpp"
+                },
+                "region": {
+                  "startLine": 67,
+                  "startColumn": 21,
+                  "endLine": 67,
+                  "endColumn": 39
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "main",
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26493",
+          "message": {
+            "text": "Don't use C-style casts (type.4)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MrsFade/Downloads/Hooking-via-InstrumentationCallback-master/Hooking-via-InstrumentationCallback-master/instrumentationcallback/instrumentationcallback.cpp"
+                },
+                "region": {
+                  "startLine": 73,
+                  "startColumn": 3,
+                  "endLine": 73,
+                  "endColumn": 30
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "main",
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26818",
+          "message": {
+            "text": "Switch statement does not cover all cases. Consider adding a 'default' label (es.79)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MrsFade/Downloads/Hooking-via-InstrumentationCallback-master/Hooking-via-InstrumentationCallback-master/instrumentationcallback/instrumentationcallback.cpp"
+                },
+                "region": {
+                  "startLine": 89,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DllMain",
+                  "decoratedName": "DllMain",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.39.33523.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/MrsFade/Downloads/Hooking-via-InstrumentationCallback-master/Hooking-via-InstrumentationCallback-master/instrumentationcallback/instrumentationcallback.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "55f54533ff43cea9fa4a29a368baa51c545446e43cb7617c4c10ab453e581a77"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mrsfade/downloads/hooking-via-instrumentationcallback-master/hooking-via-instrumentationcallback-master/instrumentationcallback/stdafx.h"
+          },
+          "hashes": {
+            "sha-256": "a5e7eb86be74a90d82ddb56f80cb70464070312da7c39341853508ebdcecee76"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mrsfade/downloads/hooking-via-instrumentationcallback-master/hooking-via-instrumentationcallback-master/instrumentationcallback/targetver.h"
+          },
+          "hashes": {
+            "sha-256": "4b74218a89940f250cc5d933cdadf62ad64e8abd832069e0093f42a02bb9944f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/mrsfade/downloads/hooking-via-instrumentationcallback-master/hooking-via-instrumentationcallback-master/instrumentationcallback/header.h"
+          },
+          "hashes": {
+            "sha-256": "39a9f2b6ac93e7c69f09d6ecbd8156fb15c3d545ba6426f6c2af5d2420639a07"
+          }
+        }
+      ]
+    }
+  ]
+}
